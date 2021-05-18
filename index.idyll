@@ -13,6 +13,9 @@
 Widespread misconceptions persist about the social, economic, and technological development in Sub-Saharan Africa. Our goal is to dispel these misconceptions by exploring and analyzing trends around the continent to reflect the diversity of Sub-Saharan Africa. While it is clear that the Sub-Saharan African region has witnessed incredible amounts of changes in its social, economical and environmental landscape, these changes are nuanced and thus we will analyze these factors in Sub-Saharan Africa to find trends and correlations within this region.
 The visualization techniques that we will apply in our explorational study are time series analysis charts, scatter plots, maps, and bar/distribution graphs, interactivity, and animation where useful. We aim to map out the gender-gap, poverty, education rates, employment rates, technological innovation, growth of the countries and several other demographic variables, and through these visualizations, we aim to debunk outdated myths and present a more accurate reflection of developments in Sub-Saharan Africa.
 
+To gain an overview of the population distribution in Sub Saharan Africa, consider the following population density map:
+![example](./static/images/a4 plot a.png)
+
 ###Let us first take a look at the poverty witnessed by the region. 
 The national poverty headcount ratio is the percentage of the population living below the national poverty line(s). Despite having a wealth of natural resources, poverty is caused by factors including corruption, poor governance, poor land utilisation , civil wars leading to unending political conflicts, poor infrastructure, diseases and poor health facilities among others. As seen by the map here, Madgascar witnesses the highest poverty headcount ratio and Somalia reports the least. 
 ![example](./static/images/Poverty Headcount.png)
