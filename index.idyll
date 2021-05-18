@@ -2,17 +2,40 @@
 
 [Header
   fullWidth:true
-  title:"CSE412 Final Project Template"
-  subtitle:"Use this structure to get started, but make the narrative your own!"
-  author:"Jane Hoffswell"
-  authorLink: "
-  https://courses.cs.washington.edu/courses/cse412/21sp/index.html"
-  date:"Apr 6, 2021"
+  title:"CSE412 Final Project"
+  subtitle:"The Sub-Saharan Landscape"
+  author:"Joia Zhang, Rishabh Verma, Subhangi Kabra, Lukas Naehrig"
+  date:"May 18, 2021"
   background:"#33333f"
   color:"#ffffff"
    /]
 
+Widespread misconceptions persist about the social, economic, and technological development in Sub-Saharan Africa. Our goal is to dispel these misconceptions by exploring and analyzing trends around the continent to reflect the diversity of Sub-Saharan Africa. While it is clear that the Sub-Saharan African region has witnessed incredible amounts of changes in its social, economical and environmental landscape, these changes are nuanced and thus we will analyze these factors in Sub-Saharan Africa to find trends and correlations within this region.
+The visualization techniques that we will apply in our explorational study are time series analysis charts, scatter plots, maps, and bar/distribution graphs, interactivity, and animation where useful. We aim to map out the gender-gap, poverty, education rates, employment rates, technological innovation, growth of the countries and several other demographic variables, and through these visualizations, we aim to debunk outdated myths and present a more accurate reflection of developments in Sub-Saharan Africa.
+
+###Let us first take a look at the poverty witnessed by the region. 
+The national poverty headcount ratio is the percentage of the population living below the national poverty line(s). Despite having a wealth of natural resources, poverty is caused by factors including corruption, poor governance, poor land utilisation , civil wars leading to unending political conflicts, poor infrastructure, diseases and poor health facilities among others. As seen by the map here, Madgascar witnesses the highest poverty headcount ratio and Somalia reports the least. 
+![example](./static/images/Poverty Headcount.png)
+
+When the top 10 richest countries in the Sub-Saharan region by GDP are looked at, we see that Uganda has the highest poverty gap (77.20%) while Tanzania has the lowest (6.70%). 10 of the world’s 19 most unequal countries are in sub-Saharan Africa. Growth in Africa occurs in sectors characterized by low absorption of unskilled labour, high earnings inequality and high capital share in total income. Growth in those sectors may spur GDP headline growth but will also exacerbate inequality. 
+Inequality also results from regressive taxes, unresponsive wage structures and inadequate investments in education, health and social protection for vulnerable and marginalized groups.
+![example](./static/images/Poverty gap.png)
+
+###What about the gender-gap?
+When we look at the relationship between the unemployment of males vs females, we see the general trend is that as the unemployment increases for males, it also increases for females. But what is interesting about this visualization is that when we look at the relationship between the unemployment rate for females and males for each country, we can see the trend for each of them and map out the gender inequalities that are present. We see that countries like Benin, Ethiopia, Mauritius, to name a few - as the percentage of unemployed females increased, 
+there was significantly lesser change to the percentage of the unemployed males.
+
+To interact with this visualization, click on the drop down menu and choose which country from the Sub-Saharan region you want to map out. 
+![example](./static/images/Unemployment.png)
+
+Next, we went ahead and selected the top five richest countries in the Sub-Saharan region by GDP: Nigeria, South Africa, Ethiopia, Kenya and Angola to see the varying trends for the life expectancy at birth for males and females for each of the five countries.
+We see that apart from Kenya and South Africa, the other three countries had a positive trend - the life expectancy at birth for females and males increased over the years. Whereas for Kenya and South Africa, there was a period of time where the life expectancy decreased - we account this decrease to the widespread prevalance of the disease HIV/AIDS.
+
+To interact with this visualization click on any one of the five countries in the legend, and then use the slider to change the years from 1967 to 2017 to see the trend over time.
+![example](./static/images/Life_expectancy.png)
+
 The final project will provide hands-on experience designing, implementing, and deploying interactive visualizations for the web. For this project, you will select a topic of interest and author a narrative article and accompanying visualizations to educate and inform a general audience. Think of your project as contributing to our own class newspaper or scientific magazine. The final deliverable will take the form of an explanatory narrative, deployed as an interactive web page using GitHub Pages. You will leverage the template and style provided here. 
+
 
 ## The theme is data visualization for communicating scientific advancements or social phenomena. How might data visualization help us better understand the workings of our society or our physical world?
 
@@ -33,6 +56,7 @@ We can easily embed images inline by including a short code snippet referencing 
  First, we specify the data that will be used in the visualization with a short code snippet: `[data name:"sunshine" source:"sunshine.json" /]`. We will reference this dataset with the name `sunshine` when creating visualizations in Vega-Lite or D3. 
 
 [data name:"sunshine" source:"sunshine.csv" /]
+[data name:"poverty" source:"poverty_new123.csv" /]
 
 #### Embedding Vega-Lite visualizations
 
@@ -265,6 +289,7 @@ There's a better way, though. What if we create our own new custom component? Th
 You can also use the Vega-Lite API like in the following example, found in `components/my-api-viz.js`.
 
 [MyAPIViz actions:false data:sunshine width:"container"/]
+
 
 # Getting Started with Your Project
 
