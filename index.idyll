@@ -13,9 +13,16 @@
 Widespread misconceptions persist about the social, economic, and technological development in Sub-Saharan Africa. Our goal is to dispel these misconceptions by exploring and analyzing trends around the continent to reflect the diversity of Sub-Saharan Africa. While it is clear that the Sub-Saharan African region has witnessed incredible amounts of changes in its social, economical and environmental landscape, these changes are nuanced and thus we will analyze these factors in Sub-Saharan Africa to find trends and correlations within this region.
 The visualization techniques that we will apply in our explorational study are time series analysis charts, scatter plots, maps, and bar/distribution graphs, interactivity, and animation where useful. We aim to map out the gender-gap, poverty, education rates, employment rates, technological innovation, growth of the countries and several other demographic variables, and through these visualizations, we aim to debunk outdated myths and present a more accurate reflection of developments in Sub-Saharan Africa.
 
+# Section 1: Overview
 To gain an overview of the population distribution in Sub Saharan Africa, consider the following population density map:
 ![example](./static/images/a4 plot a.png)
 
+Sub Saharan Africa has one of the fastest population growth rates. To understand the regional distribution of population growth, consider the following map:
+![example](./static/images/a4 plot c.png)
+
+
+
+# Section 2: Poverty and Gender:
 ###Let us first take a look at the poverty witnessed by the region. 
 The national poverty headcount ratio is the percentage of the population living below the national poverty line(s). Despite having a wealth of natural resources, poverty is caused by factors including corruption, poor governance, poor land utilisation , civil wars leading to unending political conflicts, poor infrastructure, diseases and poor health facilities among others. As seen by the map here, Madgascar witnesses the highest poverty headcount ratio and Somalia reports the least. 
 ![example](./static/images/Poverty Headcount.png)
@@ -40,6 +47,43 @@ To interact with this visualization click on any one of the five countries in th
 The final project will provide hands-on experience designing, implementing, and deploying interactive visualizations for the web. For this project, you will select a topic of interest and author a narrative article and accompanying visualizations to educate and inform a general audience. Think of your project as contributing to our own class newspaper or scientific magazine. The final deliverable will take the form of an explanatory narrative, deployed as an interactive web page using GitHub Pages. You will leverage the template and style provided here. 
 
 
+# Section 3: Energy and Climate
+The next section will contain an analysis regarding Sub Saharan Africa's energy and climate landscapes.
+### Greenhouse Gas Emissions
+Let's first consider Greenhouse Gas (GHG) emissions. In the time plot below, there is a positive trend in the average CO2 emissions per country. Since the 1970s, the average CO2 emissions have more than tripled. 
+Although methane and NO2 emissions seem to be more stable, there is also a positive trend visible which will only be amplified as Sub Saharan Africa's population continues to rise. 
+Additionally, it is important to note that a global fight against climate change will only be effective if we limit CO2 and other GHG emissions rapidly. With a rising population, the percentage of renewable energy output MUST increase at a rate higher than the population increase rate.
+![example](./static/images/a4 plot 1.png)
+
+### Emissions per Capita and Population
+An interesting approach to analyze the impact of various countries' emissions is to compare the population (yearly average in the 2010s) with the total CO2 emissions (yearly average in 2010s) and CO2 emissions per capita (yearly average in 2010s). 
+Noteworthy is South Africa, which has a relatively small population size but by far the highest rate of CO2 emissions in total and per capita. Nigeria on the contrary is the most populous country in Sub Saharan Africa but has a much smaller total CO2 emissions rate and one of the smallest CO2 emissions per capita rate. 
+![example](./static/images/a4 plot 2.png)
+
+### Electricity Access
+It is known that a significant fraction of the Sub Saharan African population does not have access to electricity. But how has this changed over time?
+Consider this two-plot analysis, where we look at electricity access in Sub Saharan Africa. In the 2010s, the electricity access percentage ranges from ~6% to ~86%. Burundi has the lowest access and Mauritius the highest access to electricity (closely followed by Seychelles). 
+The average percentage of electricity access in each country has increased from ~20% to ~40% in the past 50 years. CO2 has risen in close correspondence with this increase in accessibility. 
+Unfortunately, the renewable energy output (as a percentage of total energy output) has remained stagnant over the past 20 years with a slight negative trend.
+![example](./static/images/a4 plot 3a.png)
+![example](./static/images/a4 plot 3b.png)
+
+### Future Energy Demands
+Additionally, the following scatter plot shows that the countriest with larger populations tend to also grow the fastest, which implies that there will be significant increase
+in electricity and energy demand as we enter the next few decades. This could have a huge impact on GHG emissions and will hinder the ongoing fight against climate change.
+![example](./static/images/a4 plot 4.png)
+
+
+
+# Section 4:
+
+# Section 5:
+
+# Section 6: Conclusion
+
+
+
+## CSE 412 Template below:
 ## The theme is data visualization for communicating scientific advancements or social phenomena. How might data visualization help us better understand the workings of our society or our physical world?
 
 Your project must visualize one or more publicly accessible datasets of social or scientific importance. You are free to choose a specific domain of personal interest; for example, you might explore data relevant to your UW major. Example topics include transportation, economic development, humanitarian aid, legislative voting records, and communicating scientific research, among many others. Talk to the course staff if you have any questions regarding the project theme.
