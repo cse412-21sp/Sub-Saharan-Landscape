@@ -37,8 +37,16 @@ We see that apart from Kenya and South Africa, the other three countries had a p
 To interact with this visualization click on any one of the five countries in the legend, and then use the slider to change the years from 1967 to 2017 to see the trend over time.
 ![example](./static/images/Life_expectancy.png)
 
-The final project will provide hands-on experience designing, implementing, and deploying interactive visualizations for the web. For this project, you will select a topic of interest and author a narrative article and accompanying visualizations to educate and inform a general audience. Think of your project as contributing to our own class newspaper or scientific magazine. The final deliverable will take the form of an explanatory narrative, deployed as an interactive web page using GitHub Pages. You will leverage the template and style provided here. 
+### Note: the following Tableau visualizations are under work to become vega-lite visualizations.
+![example](./static/images/Temp_Life_Expectancy.png)
+![example](./static/images/Temp_Mortality.png)
+![example](./static/images/Temp_Malnutrition.png)
+![example](./static/images/Temp_TB_HIV.png)
+![example](./static/images/TEMP_Asylum_Origin.png)
 
+# Template:
+
+The final project will provide hands-on experience designing, implementing, and deploying interactive visualizations for the web. For this project, you will select a topic of interest and author a narrative article and accompanying visualizations to educate and inform a general audience. Think of your project as contributing to our own class newspaper or scientific magazine. The final deliverable will take the form of an explanatory narrative, deployed as an interactive web page using GitHub Pages. You will leverage the template and style provided here. 
 
 ## The theme is data visualization for communicating scientific advancements or social phenomena. How might data visualization help us better understand the workings of our society or our physical world?
 
