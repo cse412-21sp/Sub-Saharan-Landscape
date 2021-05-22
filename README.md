@@ -2,7 +2,10 @@
 
 ## Team Members
 
-Place your team member names here.
+* Subhangi Kabra
+* Lukas Naehrig
+* Rishabh Verma
+* Joia Zhang
 
 ### Contribution Statements
 
@@ -10,8 +13,9 @@ Add individual contribution statements here.
 
 ## Project Proposal Abstract
 
-This is the space for you to add a description for your project.
+Widespread misconceptions persist about the social, economic, and technological development in Sub-Saharan Africa. Our goal is to dispel these misconceptions by exploring and analyzing trends around the continent to reflect the diversity of Sub-Saharan Africa. While it is clear that the Sub-Saharan African region has witnessed incredible amounts of changes in its social, economical and environmental landscape, these changes are nuanced and thus we will analyze these factors in Sub-Saharan Africa to find trends and correlations within this region.
 
+The visualization techniques that we will apply in our explorational study are time series analysis charts, scatter plots, maps, and bar/distribution graphs, interactivity, and animation where useful. We aim to map out the gender-gap, poverty, education rates, employment rates, technological innovation, growth of the countries and several other demographic variables, and through these visualizations, we aim to debunk outdated myths and present a more accurate reflection of developments in Sub-Saharan Africa.
 ## Getting Started
 
 This template is a starting place for your project. Update the header information to include the relevant details for your project, and then feel free to mix and match the visualization and layout techniques introduced here for your own narrative.
