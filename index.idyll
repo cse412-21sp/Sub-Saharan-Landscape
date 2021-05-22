@@ -26,7 +26,7 @@ Overall, Africa's economic landscape has seen incredible changes in the last hal
 
 We can dig down into different indicators of economic development such as electricity consumption, cell phone access, and air traffic. It is apparent that in recent decades, Africa's countries can be grouped into three broad classes of electricity usage, the most significant of which includes large countries like Nigeria and Angola with newly developed economies as well as small countries like Mauritius and Seychelles.
 
-(TODO) Integrate this d3 viz into Idyll.
+(TODO) Integrate this d3 viz into Idyll. I cry because I don't know how to make Idyll work with d3 version 3.
 
 ![infrastructure](./static/images/infrastructure_2.png)
 
@@ -54,6 +54,17 @@ We see that apart from Kenya and South Africa, the other three countries had a p
 
 To interact with this visualization click on any one of the five countries in the legend, and then use the slider to change the years from 1967 to 2017 to see the trend over time.
 ![example](./static/images/Life_expectancy.png)
+
+
+### Note: the following Tableau visualizations are under work to become vega-lite visualizations.
+![example](./static/images/Temp_Life_Expectancy.png)
+![example](./static/images/Temp_Mortality.png)
+![example](./static/images/Temp_Malnutrition.png)
+![example](./static/images/Temp_TB_HIV.png)
+![example](./static/images/TEMP_Asylum_Origin.png)
+![example](./static/images/Net_Aid.png)
+![example](./static/images/Net_UN_Aid.png)
+![example](./static/images/Aid_Ratio.png)
 
 
 
