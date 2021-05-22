@@ -20,6 +20,19 @@ To gain an overview of the population distribution in Sub Saharan Africa, consid
 Sub Saharan Africa has one of the fastest population growth rates. To understand the regional distribution of population growth, consider the following map:
 ![example](./static/images/a4 plot c.png)
 
+###Which regions are seeing rapid developments in infrastructure?
+
+Overall, Africa's economic landscape has seen incredible changes in the last half century. 
+
+(TODO) The years animate as you scroll, and you can see that Nigeria, Angola, and South Africa have all exploded in economic productivity.
+
+![economy](./static/images/economy_1.png)
+
+We can dig down into different indicators of economic development such as electricity consumption, cell phone access, and air traffic. It is apparent that in recent decades, Africa's countries can be grouped into three broad classes of electricity usage, the most significant of which includes large countries like Nigeria and Angola with newly developed economies as well as small countries like Mauritius and Seychelles.
+
+(TODO) Integrate this d3 viz into Idyll.
+
+![infrastructure](./static/images/infrastructure_2.png)
 
 
 # Section 2: Poverty and Gender:
