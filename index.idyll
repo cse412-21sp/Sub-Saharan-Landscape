@@ -47,7 +47,7 @@ We can dig down into different indicators of economic development such as electr
 # Section 2: Poverty and Gender:
 ###Let us first take a look at the poverty witnessed by the region. 
 The national poverty headcount ratio is the percentage of the population living below the national poverty line(s). Despite having a wealth of natural resources, poverty is caused by factors including corruption, poor governance, poor land utilisation , civil wars leading to unending political conflicts, poor infrastructure, diseases and poor health facilities among others. As seen by the map here, Madgascar witnesses the highest poverty headcount ratio and Somalia reports the least. 
-![poverty headcount](./static/images/Poverty Headcount.png)
+![poverty headcount](./static/images/PHCR.png)
 
 
 When the top 10 richest countries in the Sub-Saharan region by GDP are looked at, we see that Uganda has the highest poverty gap (77.20%) while Tanzania has the lowest (6.70%). 10 of the world’s 19 most unequal countries are in sub-Saharan Africa. Growth in Africa occurs in sectors characterized by low absorption of unskilled labour, high earnings inequality and high capital share in total income. Growth in those sectors may spur GDP headline growth but will also exacerbate inequality. 
@@ -60,16 +60,20 @@ When we look at the relationship between the unemployment of males vs females, w
 there was significantly lesser change to the percentage of the unemployed males.
 
 To interact with this visualization, click on the drop down menu and choose which country from the Sub-Saharan region you want to map out. 
-![example](./static/images/Unemployment.png)
 
+[FullWidth]
+[ObservableEmbed link:"https://observablehq.com/embed/6bc937778505b948?cells=unemployment"width:"100%" height:"445"/]
+[/FullWidth]
 
 
 Next, we went ahead and selected the top five richest countries in the Sub-Saharan region by GDP: Nigeria, South Africa, Ethiopia, Kenya and Angola to see the varying trends for the life expectancy at birth for males and females for each of the five countries.
 We see that apart from Kenya and South Africa, the other three countries had a positive trend - the life expectancy at birth for females and males increased over the years. Whereas for Kenya and South Africa, there was a period of time where the life expectancy decreased - we account this decrease to the widespread prevalance of the disease HIV/AIDS.
 
 To interact with this visualization click on any one of the five countries in the legend, and then use the slider to change the years from 1967 to 2017 to see the trend over time.
-![example](./static/images/Life_expectancy.png)
 
+[FullWidth]
+[ObservableEmbed link:"https://observablehq.com/embed/6bc937778505b948?cells=life"width:"100%" height:"445"/]
+[/FullWidth]
 
 # Section 3: Energy and Climate
 The next section will contain an analysis regarding Sub Saharan Africa's energy and climate landscapes.
