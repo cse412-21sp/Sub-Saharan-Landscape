@@ -3,7 +3,7 @@
 [Header
   fullWidth:true
   title:"The Sub-Saharan Landscape"
-  subtitle:"An analysis of social, economical, plolitical, and energy trends"
+  subtitle:"An analysis of social, economic, political, health and energy trends"
   author:"Joia Zhang, Rishabh Verma, Subhangi Kabra, Lukas Naehrig"
   date:"May, 2021"
   background:"#33333f"
@@ -113,17 +113,9 @@ If a country with fast population growth appears lighter, then this country will
 
 [TableauEmbed link:"https://public.tableau.com/views/UpdatedSub-SaharanLandscapePlot11/Sheet11?:language=en-US&:display_count=n&:origin=viz_share_link" width:"750" height:"750"/]
 
-
-
-### Note: the following Tableau visualizations are under work to become vega-lite visualizations.
-![example](./static/images/Temp_Life_Expectancy.png)
-![example](./static/images/Temp_Mortality.png)
-![example](./static/images/Temp_Malnutrition.png)
-![example](./static/images/Temp_TB_HIV.png)
-![example](./static/images/TEMP_Asylum_Origin.png)
-![example](./static/images/Net_Aid.png)
-![example](./static/images/Net_UN_Aid.png)
-![example](./static/images/Aid_Ratio.png)
+[FullWidth]
+[ObservableEmbed link:"https://observablehq.com/embed/@joiazhang/untitled"width:"100%" height:"445"/]
+[/FullWidth]
 
 
 
