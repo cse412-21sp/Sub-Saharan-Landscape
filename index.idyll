@@ -71,7 +71,7 @@ there was significantly lesser change to the percentage of the unemployed males.
 To interact with this visualization, click on the drop down menu and choose which country from the Sub-Saharan region you want to map out. 
 
 
-[ObservableEmbed link:"https://observablehq.com/embed/6bc937778505b948?cells=unemployment"width:"100%" height:"400"/]
+[ObservableEmbed link:"https://observablehq.com/embed/6bc937778505b948?cells=unemployment"width:"100%" height:"700"/]
 
 
 
@@ -80,7 +80,7 @@ We see that apart from Kenya and South Africa, the other three countries had a p
 
 To interact with this visualization click on any one of the five countries in the legend, and then use the slider to change the years from 1967 to 2017 to see the trend over time.
 
-[ObservableEmbed link:"https://observablehq.com/embed/6bc937778505b948?cells=life"width:"100%" height:"445"/]
+[ObservableEmbed link:"https://observablehq.com/embed/6bc937778505b948?cells=life"width:"100%" height:"700"/]
 
 # Section 3: Energy and Climate
 The next section will contain an analysis regarding Sub Saharan Africa's energy and climate landscapes.
