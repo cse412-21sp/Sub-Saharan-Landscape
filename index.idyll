@@ -29,19 +29,26 @@ Djibouti has the highest average population growth with a rate of 4.674, which i
 Mauritius and the Seychelles have the slowest rate, which is close to 1.3. Note that this implies that every single country in Sub-Saharan Africa is growing.
 
 
-###Which regions are seeing rapid developments in infrastructure?
+###How quickly is Africa's economy growing?
 
-Overall, Africa's economic landscape has seen incredible changes in the last half century. 
+Overall, Africa's economic landscape has seen incredible growth in the last half century. South Africa and Nigeria have become major economic powers within the continent, and many other countries are growing at startlingly quick rates. 
 
-(TODO) The years animate as you scroll, and you can see that Nigeria, Angola, and South Africa have all exploded in economic productivity.
 
-![economy](./static/images/economy_1.png)
+[var name:"myRange" value:1960 /]
+[Range value:myRange min:1960 max:2019 /]
+Year: [Display value:myRange format:"d"/]
+[D3GDP currentYear:myRange /]
 
-We can dig down into different indicators of economic development such as electricity consumption, cell phone access, and air traffic. It is apparent that in recent decades, Africa's countries can be grouped into three broad classes of electricity usage, the most significant of which includes large countries like Nigeria and Angola with newly developed economies as well as small countries like Mauritius and Seychelles.
+Angola has been growing like Sweden has in 1980.
 
-(TODO) Integrate this d3 viz into Idyll.
+Kenya has been growing like the Philippines have in 2004.
 
-![infrastructure](./static/images/infrastructure_2.png)
+Nigeria has been growing like Turkey has in 2006.
+
+
+[var name:"country1" value:"Nigeria" /]
+[var name:"year2" value:1980 /]
+
 
 
 # Section 2: Poverty and Gender:

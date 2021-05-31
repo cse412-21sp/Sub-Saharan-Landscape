@@ -11,6 +11,7 @@
     "output": "docs"
   },
   "dependencies": {
+    "arquero": "^4.8.0",
     "d3": "^6.6.2",
     "d3-scale-chromatic": "^2.0.0",
     "d3-selection": "^2.0.0",
