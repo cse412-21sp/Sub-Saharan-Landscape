@@ -35,17 +35,10 @@ Overall, Africa's economic landscape has seen incredible growth in the last half
 
 
 [var name:"myRange" value:1960 /]
-[WideRange value:myRange min:1960 max:2019 /]
+[WideRange value:myRange min:1960 max:2018 /]
 Year: [Display value:myRange format:"d"/]
 [D3GDP currentYear:myRange /]
 
-
-
-Angola has been growing like Sweden has in 1980.
-
-Kenya has been growing like the Philippines have in 2004.
-
-Nigeria has been growing like Turkey has in 2006.
 
 
 
@@ -56,13 +49,9 @@ Nigeria has been growing like Turkey has in 2006.
 
 
 [Select value:country1 options:`["Angola","Benin","Botswana","Burkina Faso","Burundi","Cabo Verde","Cameroon","Central African Republic","Chad","Comoros","Congo, Dem. Rep.","Congo, Rep.","Cote d'Ivoire","Djibouti","Equatorial Guinea","Eritrea","Eswatini","Ethiopia","Gabon","Gambia, The","Ghana","Guinea","Guinea-Bissau","Kenya","Lesotho","Liberia","Madagascar","Malawi","Mali","Mauritania","Mauritius","Mozambique","Namibia","Niger","Nigeria","Rwanda","Sao Tome and Principe","Senegal","Seychelles","Sierra Leone","Somalia","South Africa","South Sudan","Sudan","Tanzania","Togo","Uganda","Zambia"]` /]
-is growing like 
-[Display value:country2 /]
-was in [Display value:year2 format:"d" /]
+in 2019 is growing like _______________ in [Display value:year2 format:"d" /].
 
-[Range value:year2 min:1960 max:2019 /]
-Year: [Display value:year2 format:"d"/]
-
+[WideRange value:year2 min:1960 max:2019 /] Year
 
 [Buddies country1:country1 year2:year2 country2:country2/]
 
