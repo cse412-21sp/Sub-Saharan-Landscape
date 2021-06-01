@@ -75,9 +75,9 @@ there was significantly lesser change to the percentage of the unemployed males.
 
 To interact with this visualization, click on the drop down menu and choose which country from the Sub-Saharan region you want to map out. 
 
-[FullWidth]
-[ObservableEmbed link:"https://observablehq.com/embed/6bc937778505b948?cells=unemployment"width:"100%" height:"445"/]
-[/FullWidth]
+
+[ObservableEmbed link:"https://observablehq.com/embed/6bc937778505b948?cells=unemployment"width:"100%" height:"700"/]
+
 
 
 Next, we went ahead and selected the top five richest countries in the Sub-Saharan region by GDP: Nigeria, South Africa, Ethiopia, Kenya and Angola to see the varying trends for the life expectancy at birth for males and females for each of the five countries.
@@ -85,9 +85,7 @@ We see that apart from Kenya and South Africa, the other three countries had a p
 
 To interact with this visualization click on any one of the five countries in the legend, and then use the slider to change the years from 1967 to 2017 to see the trend over time.
 
-[FullWidth]
-[ObservableEmbed link:"https://observablehq.com/embed/6bc937778505b948?cells=life"width:"100%" height:"445"/]
-[/FullWidth]
+[ObservableEmbed link:"https://observablehq.com/embed/6bc937778505b948?cells=life"width:"100%" height:"700"/]
 
 # Section 3: Energy and Climate
 The next section will contain an analysis regarding Sub Saharan Africa's energy and climate landscapes.
@@ -125,12 +123,12 @@ If a country with fast population growth appears lighter, then this country will
 
 [TableauEmbed link:"https://public.tableau.com/views/UpdatedSub-SaharanLandscapePlot11/Sheet11?:language=en-US&:display_count=n&:origin=viz_share_link" width:"750" height:"750"/]
 
-[FullWidth]
-[ObservableEmbed link:"https://observablehq.com/embed/@joiazhang/untitled"width:"100%" height:"445"/]
-[/FullWidth]
+# Section 4: Health
+With Africa's growing economy, population, and technological development, how has the health of individuals changed over the past few decades?
+[ObservableEmbed link:"https://observablehq.com/embed/@joiazhang/untitled"width:"100%" height:"400"/]
 
-
-
+# Conclusion
+Pollings show how public understandings of the state of the world are outdated by several decades. The public mind tends to downplay the drastic improvements in health, economic development, and technological advancement of Sub-Saharan African countries. Countries in Sub-Saharan Africa can be likened to OECD countries in earlier stages of development. Like OECD countries, such development has been tangled with disparities in wealth and gender, as well as carbon emissions. Such development has been far from uniform. Events specific to each country can be reflected in net aid, and refugee migration. In the past half-century, Sub-Saharan Africa has undergone dramatic and dynamic change in economy, emissions, wealth distributions, technology, and health.
 
 #### Acknowledgements
 
