@@ -89,6 +89,7 @@ To interact with this visualization click on any one of the five countries in th
 
 # Section 3: Energy and Climate
 The next section will contain an analysis regarding Sub Saharan Africa's energy and climate landscapes.
+Africa is stereotypically known to have a severe lack of electricity access and therefore contribute little to climate change effects. Let's take a look if these statements are facts or misconceptions.
 
 ###Greenhouse Gas Emissions
 Let's first consider Greenhouse Gas (GHG) emissions. In the time plot below, there is a positive trend in the average CO2 emissions per country. Since the 1970s, the average CO2 emissions have more than tripled. 
@@ -97,6 +98,7 @@ Additionally, it is important to note that a global fight against climate change
 
 [TableauEmbed link:"https://public.tableau.com/views/UpdatedSub-SaharanLandscapePlot10/Sheet10?:language=en-US&:display_count=n&:origin=viz_share_link" width:"1000" height:"800"/]
 
+We can see that the average yearly CO2 emissions for a Sub-Saharan African country in the 2010s is about 16 kt of CO2. For comparison, the U.S. had an output of over 5,000,000 kt of CO2 in 2016. It appears that countries in Sub-Saharan Africa emit indeed a lot less CO2 than developed countries.
 
 ###Emissions per Capita and Population
 An interesting approach to analyze the impact of various countries' emissions is to compare the population (yearly average in the 2010s) with the total CO2 emissions (yearly average in 2010s) and CO2 emissions per capita (yearly average in 2010s). 
@@ -104,6 +106,7 @@ Noteworthy is South Africa, which has a relatively small population size but by 
 
 [TableauEmbed link:"https://public.tableau.com/views/Sub-SaharanLandscapePlot1/Sheet1?:language=en&:display_count=y&:origin=viz_share_link" width:"750" height:"750"/]
 
+South Africa is known to be the most industrialized nation in Sub-Saharan Africa, which is very much depicted in this bar graph. Even though there are several countries with a higher population count, South Africa had the most CO2 emissions per capita.
 
 ###Electricity Access
 It is known that a significant fraction of the Sub Saharan African population does not have access to electricity. But how has this changed over time?
@@ -114,6 +117,7 @@ Unfortunately, the renewable energy output (as a percentage of total energy outp
 [TableauEmbed link:"https://public.tableau.com/views/UpdatedSub-SaharanLandscapePlot5/Sheet5?:language=en-US&:display_count=n&:origin=viz_share_link" width:"750" height:"750"/]
 [TableauEmbed link:"https://public.tableau.com/views/Sub-SaharanLandscapePlot9/Sheet9?:language=en&:display_count=y&:origin=viz_share_link" width:"750" height:"750"/]
 
+These two plots show that the low electricty access perception in Sub-Saharan Africa has been a slight misconception. In 2014, an average of 40% of the population has access to electricity in each country, which is almost half the population.
 
 ###Future Energy Demands
 Additionally, the following scatter plot shows that the countriest with larger populations tend to also grow the fastest, which implies that there will be significant increase
@@ -122,6 +126,9 @@ Note that the shade of the data points corresponds to the access to electricity 
 If a country with fast population growth appears lighter, then this country will likely experience a massive increase in energy demand in the next few decades to come.
 
 [TableauEmbed link:"https://public.tableau.com/views/UpdatedSub-SaharanLandscapePlot11/Sheet11?:language=en-US&:display_count=n&:origin=viz_share_link" width:"750" height:"750"/]
+
+This plot proves some previously speculated statements that the Sub-Saharan population is growing rapidly. Indeed, most countries are above a population growth rate of 2%, with some reaching 4%. In comparison, the U.S.' population growth is 0.5% at the moment.
+
 
 # Section 4: Health
 With Africa's growing economy, population, and technological development, how has the health of individuals changed over the past few decades?
