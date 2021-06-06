@@ -19,7 +19,7 @@ To gain an overview of the population distribution in Sub Saharan Africa, consid
 [TableauEmbed link:"https://public.tableau.com/views/Sub-SaharanLandscapePlot2/Sheet2?:language=en&:display_count=y&:origin=viz_share_link" width:"800" height:"800"/]
 
 Nigeria (174,387,515) is the most populated country in Sub-Saharan Africa, followed by Ethiopia (96,210,222) and Congo (72,690,899).
-The Seychelles (91,345) have the smalles population.
+The Seychelles (91,345) have the smallest population.
 
 Sub Saharan Africa has one of the fastest population growth rates. To understand the regional distribution of population growth, consider the following map:
 
@@ -87,7 +87,36 @@ To interact with this visualization click on any one of the five countries in th
 
 [ObservableEmbed link:"https://observablehq.com/embed/6bc937778505b948?cells=life"width:"100%" height:"500"/]
 
-# Section 3: Energy and Climate
+# Section 3: Health
+#### With Africa's growing economy, population, and technological development, how has the health of individuals changed over the past few decades?
+
+The growth of Sub-Saharan Africa's economy, population, and technological innovation has coincided with drastic improvements in life expectancy for both adults and children.
+
+## Average Life Expectancy At Birth (years)
+[ObservableEmbed link:"https://observablehq.com/embed/@joiazhang/untitled?cells=viewof+year_slider_gender%2Clife_expectancy"width:"100%" height:"400"/]
+During 1960 to 2016, average life expectancy has increased for every country. However, this increase is not uniform. Average life expectancy in Sub-Saharan Africa has increased less than that of Northern Africa. From 1990 to the mid 2000s, the southern tip of Africa witnessed decreases in life expectancy, corresponding to the height of the AIDS epidemic in Africa.
+
+## Average Mortality (per 1000)
+[ObservableEmbed link:"https://observablehq.com/embed/@joiazhang/untitled?cells=viewof+year_slider_gender2%2Cmortality"width:"100%" height:"400"/]
+In the last half-century, mortality rates have been more than halved in several countries. Mortality rates have decreased on the aggregate but mortality rate increased sharply during the AIDS epidemic where the Southern region of Africa was devestated the most.
+
+## Mortality Rate Under Five (per 1000)
+[ObservableEmbed link:"https://observablehq.com/embed/@joiazhang/untitled?cells=viewof+year_slider_climate%2Cmortality_5"width:"100%" height:"400"/]
+Disregarding missing data indicated as zeros, child mortality rates remained as high as 40% throughout the 1960s, 1970s, 1980s, and 1990s. The region right below the Sahara dessert did not witness steady improvements until the mid 2000s. This area remains the region with the highest mortality rate for children under the age of five.
+
+## Disease
+Life expectancy and mortality rate depend on an array of important variables. One of which is disease.
+
+## Prevalence of HIV
+[ObservableEmbed link:"https://observablehq.com/embed/@joiazhang/untitled?cells=hiv_prevalence"width:"100%" height:"400"/]
+The twenty countries with the highest rates of HIV cases all lie in Sub-Saharan Africa, which is as high as 35%. This lies in stark contrast to the overwhelming number of countries that have HIV prevalence close to zero percent.
+
+## Incidence of Tuberculosis
+Large outbreaks of tuberculosis (TB) are preventable through existing vaccines. Yet, large outbreaks of TB persist in many countries in Sub-Saharan Africa and Asia.
+[ObservableEmbed link:"https://observablehq.com/embed/@joiazhang/untitled?cells=tb_incedence"width:"100%" height:"400"/]
+Sub-Saharan African countries constitute the majority of the top twenty countries with the most tuberculosis case rates, followed by countries in Asian and Oceania.
+
+# Section 4: Energy and Climate
 The next section will contain an analysis regarding Sub Saharan Africa's energy and climate landscapes.
 Africa is stereotypically known to have a severe lack of electricity access and therefore contribute little to climate change effects. Let's take a look if these statements are facts or misconceptions.
 
@@ -100,13 +129,23 @@ Additionally, it is important to note that a global fight against climate change
 
 We can see that the average yearly CO2 emissions for a Sub-Saharan African country in the 2010s is about 16 kt of CO2. For comparison, the U.S. had an output of over 5,000,000 kt of CO2 in 2016. It appears that countries in Sub-Saharan Africa emit indeed a lot less CO2 than developed countries.
 
+Here is another plot that displays the total CO2 emissions in kt for all Sub-Saharan countries combined. 
+[ObservableEmbed link:"https://observablehq.com/embed/@lukasnaehrig/energy-and-climate-in-sub-saharan-africa?cells=total"width:"100%" height:"500"/]
+It is evident that the CO2 emissions are rising steadily, which is proof that the region is developing/industrializing quickly.
+
+
 ###Emissions per Capita and Population
 An interesting approach to analyze the impact of various countries' emissions is to compare the population (yearly average in the 2010s) with the total CO2 emissions (yearly average in 2010s) and CO2 emissions per capita (yearly average in 2010s). 
 Noteworthy is South Africa, which has a relatively small population size but by far the highest rate of CO2 emissions in total and per capita. Nigeria on the contrary is the most populous country in Sub Saharan Africa but has a much smaller total CO2 emissions rate and one of the smallest CO2 emissions per capita rate. 
 
-[TableauEmbed link:"https://public.tableau.com/views/Sub-SaharanLandscapePlot1/Sheet1?:language=en&:display_count=y&:origin=viz_share_link" width:"750" height:"750"/]
+[TableauEmbed link:"https://public.tableau.com/views/Sub-SaharanLandscapePlot1/Sheet1?:language=en&:display_count=y&:origin=viz_share_link" width:"1000" height:"750"/]
 
 South Africa is known to be the most industrialized nation in Sub-Saharan Africa, which is very much depicted in this bar graph. Even though there are several countries with a higher population count, South Africa had the most CO2 emissions per capita.
+
+In the following plot, we can take a look at a timeline of how CO2 emissions per capita have changed:
+[ObservableEmbed link:"https://observablehq.com/embed/@lukasnaehrig/energy-and-climate-in-sub-saharan-africa?cells=CO2"width:"100%" height:"500"/]
+As we can see, even though Sub-Saharan Africa is industrializing, the CO2 emissions per capita have been steady, even slightly decreasing in the past few decades. This is because renewable energy output is increasing linearly with development and access to electricity as we will see in a later set of graphs.
+
 
 ###Electricity Access
 It is known that a significant fraction of the Sub Saharan African population does not have access to electricity. But how has this changed over time?
@@ -119,6 +158,11 @@ Unfortunately, the renewable energy output (as a percentage of total energy outp
 
 These two plots show that the low electricty access perception in Sub-Saharan Africa has been a slight misconception. In 2014, an average of 40% of the population has access to electricity in each country, which is almost half the population.
 
+We can also look at the percentage of renewable energy output (from the total electricity production). This percentage has increased rapidly in recent years and is now over 25% in 2016.
+[ObservableEmbed link:"https://observablehq.com/embed/@lukasnaehrig/energy-and-climate-in-sub-saharan-africa?cells=Percentage"width:"100%" height:"500"/]
+Misconceptions typically describe the lack of access to renewable energy, but 25% is an incredibly large fraction for the region, which can have positive implications for future Greenhouse Gas emissions.
+
+
 ###Future Energy Demands
 Additionally, the following scatter plot shows that the countriest with larger populations tend to also grow the fastest, which implies that there will be significant increase
 in electricity and energy demand as we enter the next few decades. This could have a huge impact on GHG emissions and will hinder the ongoing fight against climate change.
@@ -129,15 +173,29 @@ If a country with fast population growth appears lighter, then this country will
 
 This plot proves some previously speculated statements that the Sub-Saharan population is growing rapidly. Indeed, most countries are above a population growth rate of 2%, with some reaching 4%. In comparison, the U.S.' population growth is 0.5% at the moment.
 
+# Section 5: Historical and Current Events
 
-# Section 4: Health
-With Africa's growing economy, population, and technological development, how has the health of individuals changed over the past few decades?
-[ObservableEmbed link:"https://observablehq.com/embed/@joiazhang/untitled"width:"100%" height:"400"/]
+#### How may observed patterns align with historical or current events?
+
+## Refugee Population by Country of Origin and Asylum
+Armed conflict, disease outbreaks, droughts, and major disruptions of the like can bring nations into periods of great instability and havoc. When viewing country of origin and country of asylum, migration patterns may be seen. Such patterns can be tied to specific historical and current events in each nation.
+[ObservableEmbed link:"https://observablehq.com/embed/@joiazhang/untitled?cells=viewof+year_slider_soc%2Cmigration"width:"100%" height:"400"/]
+From the 1990s onwards, Sudan has experienced mass displacement. In the late 2010s, the mass displacement centers in South Sudan, corresponding with the South Sudanese Civil War. In the late 2010s, Somalia experienced mass displacement as well, which may be tied to the rise of militant youth group Al-Shabab. Neighboring countries to Somalia, Sudan, and South Sudan such as Chad, Tanzania, Uganda, and Ethiopia have been major countries of refuge.
+
+## Net Aid
+Specific events in different countries can be reflected in the amount of aid received in each year.
+[ObservableEmbed link:"https://observablehq.com/embed/@joiazhang/untitled?cells=viewof+year_slider_aid%2Cnet_aid"width:"100%" height:"400"/]
+In the 1960s and 1970s, aid distribution across the continent of Africa remained relatively uniform. From the early 1980s onwards, aid was focused on Eastern Africa, particularly Sudan, Tanzania, and Ethiopia in the late 2010s. Aid for Nigeria peaked in 2005 when military force against Boko Haram was funded.
+
+## Proportion of Aid to Economy
+For those countries that have recieved aid, how does this aid, as a national income source, compare to a country's other income sources such as imports and primary income?
+[ObservableEmbed link:"https://observablehq.com/embed/@joiazhang/untitled?cells=viewof+year_slider_aid2%2Caid_proportion"width:"100%" height:"400"/]
+In countries directly below the Sahara Desert, total aid is a larger proportion of total imports of goods, services, and primary income—a metric of a country's economy. In the late 2010s, the sharp rise in the plotted proportion corresponds to the South Sudanese Civil War beggining in 2013. Over the years, aid has become a smaller and smaller portion of the total economy of each country.
 
 # Conclusion
 Pollings show how public understandings of the state of the world are outdated by several decades. The public mind tends to downplay the drastic improvements in health, economic development, and technological advancement of Sub-Saharan African countries. Countries in Sub-Saharan Africa can be likened to OECD countries in earlier stages of development. Like OECD countries, such development has been tangled with disparities in wealth and gender, as well as carbon emissions. Such development has been far from uniform. Events specific to each country can be reflected in net aid, and refugee migration. In the past half-century, Sub-Saharan Africa has undergone dramatic and dynamic change in economy, emissions, wealth distributions, technology, and health.
 
-#### Acknowledgements
+# Acknowledgements
 
 Big thanks to Zening Qu for publishing a [tidy version](https://github.com/ZeningQu/World-Bank-Data-by-Indicators) of the World Bank dataset.
 
