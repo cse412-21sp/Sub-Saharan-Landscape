@@ -1,11 +1,11 @@
-[meta title:"CSE412 Final Project" description:"The initial template for the CSE412 Final Projects (Spring 2021)" /]
+[meta title:"Sub-Saharan Landscape" description:"An analysis of social, economic, political, health and energy trends" /]
 
 [Header
   fullWidth:true
   title:"The Sub-Saharan Landscape"
   subtitle:"An analysis of social, economic, political, health and energy trends"
   author:"Joia Zhang, Rishabh Verma, Subhangi Kabra, Lukas Naehrig"
-  date:"May, 2021"
+  date:"June, 2021"
   background:"#33333f"
   color:"#ffffff"
    /]
@@ -13,54 +13,78 @@
 Widespread misconceptions persist about the social, economic, and technological development in Sub-Saharan Africa. Our goal is to dispel these misconceptions by exploring and analyzing trends around the continent to reflect the diversity of Sub-Saharan Africa. While it is clear that the Sub-Saharan African region has witnessed incredible amounts of changes in its social, economical and environmental landscape, these changes are nuanced and thus we will analyze these factors in Sub-Saharan Africa to find trends and correlations within this region.
 The visualization techniques that we will apply in our explorational study are time series analysis charts, scatter plots, maps, and bar/distribution graphs, interactivity, and animation where useful. We aim to map out the gender-gap, poverty, education rates, employment rates, technological innovation, growth of the countries and several other demographic variables, and through these visualizations, we aim to debunk outdated myths and present a more accurate reflection of developments in Sub-Saharan Africa.
 
-# Section 1: Overview
+First let's get a lay of the land.
+
+# Section 1: An overview in population and economy
+
 To gain an overview of the population distribution in Sub Saharan Africa, consider the following population density map:
 
 [TableauEmbed link:"https://public.tableau.com/views/Sub-SaharanLandscapePlot2/Sheet2?:language=en&:display_count=y&:origin=viz_share_link" width:"800" height:"800"/]
 
-Nigeria (174,387,515) is the most populated country in Sub-Saharan Africa, followed by Ethiopia (96,210,222) and Congo (72,690,899).
-The Seychelles (91,345) have the smallest population.
+Out of one billion people, Nigeria (174m) is the most populated country in Sub-Saharan Africa, followed by Ethiopia (96m) and the Dem. Rep. of the Congo (72m). The archipelago of Seychelles has the smallest population. 
 
-Sub Saharan Africa has one of the fastest population growth rates. To understand the regional distribution of population growth, consider the following map:
+Overall, regions near the northwest appear less populated, but they are growing rapidly. This growth is broken down with every other country in Sub-Saharan Africa in the following map:
 
 [TableauEmbed link:"https://public.tableau.com/views/Sub-SaharanLandscapePlot4/Sheet3?:language=en&:retry=yes&:display_count=y&:origin=viz_share_link" width:"800" height:"800"/]
 
-Djibouti has the highest average population growth with a rate of 4.674, which is measured as a yearly percentage increase.
-Mauritius and the Seychelles have the slowest rate, which is close to 1.3. Note that this implies that every single country in Sub-Saharan Africa is growing.
+The countries of Djibouti (4.6%), Kenya (3.4%), and Uganda (3.4%) have the fastest population growth in the east. The countries of Niger (3.4%) and Cote d'Ivoire (3.6%) have the fastest population growth in the west. All percentages are yearly increases.
+
+TODO: What does that mean, a yearly percentage increase? Are they increasing by 3% per year? Or is (percent change in population growth from 1960 to 2017)/(2017-1960) equal to 3%? The former interpretation compounds, which is extreme. The latter interpretation does not.
 
 
 ###How quickly is Africa's economy growing?
 
 Overall, Africa's economic landscape has seen incredible growth in the last half century. South Africa and Nigeria have become major economic powers within the continent, and many other countries are growing at startlingly quick rates. 
 
+Size represents the country's gross domestic product (GDP). Color represents [GNI per capita](https://en.wikipedia.org/wiki/Gross_national_income), representing the average income each citizen earns.
+
+Drag the slider to see Africa in modern times. 
 
 [var name:"myRange" value:1960 /]
 [WideRange value:myRange min:1960 max:2018 /]
 Year: [Display value:myRange format:"d"/]
 [D3GDP currentYear:myRange /]
 
+There are three regions of upper-middle income countries. 
+
+1. There are the southern countries of South Africa, Namibia, Botswana, and Eswatini, with highly diverse economies.
+2. There are the equatorial countries of Equatorial Guinea and Gabon, which sit on oil reserves.  
+3. There are the island countries of Mauritius and Seychelles, with diverse economies as well as well-developed tourism industries. 
+
+The rapid growth of Nigeria in the 21st century has it projected by some to be a global force in the world market. When looking at historical trends, there are so many developed countries around the world that only accrued their wealth recently. Countries in Sub Saharan Africa, particularly the ones near the south, are all poised for similar growth.
 
 
 
+We can compare its GNI per capita (and other countries' GNI per capita) to other countries in the world in the following interactive graphic.
 
 [var name:"country1" value:"Nigeria" /]
 [var name:"year2" value:2006 /]
-[var name:"country2" value:"Dummy_init" /]
 
+### How does the economic development of Sub-Saharan African countries compare to other countries in the past?
 
-[Select value:country1 options:`["Angola","Benin","Botswana","Burkina Faso","Burundi","Cabo Verde","Cameroon","Central African Republic","Chad","Comoros","Congo, Dem. Rep.","Congo, Rep.","Cote d'Ivoire","Djibouti","Equatorial Guinea","Eritrea","Eswatini","Ethiopia","Gabon","Gambia, The","Ghana","Guinea","Guinea-Bissau","Kenya","Lesotho","Liberia","Madagascar","Malawi","Mali","Mauritania","Mauritius","Mozambique","Namibia","Niger","Nigeria","Rwanda","Sao Tome and Principe","Senegal","Seychelles","Sierra Leone","Somalia","South Africa","South Sudan","Sudan","Tanzania","Togo","Uganda","Zambia"]` /]
-in 2019 is growing like _______________ in [Display value:year2 format:"d" /].
+[Buddies country1:country1 year2:year2/]
 
 [WideRange value:year2 min:1960 max:2019 /] Year
 
-[Buddies country1:country1 year2:year2 country2:country2/]
+[span style:`{fontSize:'18px'}`]
+[Select value:country1 options:`["Angola","Benin","Botswana","Burkina Faso","Burundi","Cabo Verde","Cameroon","Central African Republic","Chad","Comoros","Congo, Dem. Rep.","Congo, Rep.","Cote d'Ivoire","Djibouti","Equatorial Guinea","Eritrea","Eswatini","Ethiopia","Gabon","Gambia, The","Ghana","Guinea","Guinea-Bissau","Kenya","Lesotho","Liberia","Madagascar","Malawi","Mali","Mauritania","Mauritius","Mozambique","Namibia","Niger","Nigeria","Rwanda","Sao Tome and Principe","Senegal","Seychelles","Sierra Leone","Somalia","South Africa","South Sudan","Sudan","Tanzania","Togo","Uganda","Zambia"]` /]
+in 2019 is growing like [DisplayBuddy country1:country1 year2:year2 /] in [Display value:year2 format:"d" /].[/span]
+
+
+
+Pick a country and drag the slider go back in time. You'll find countries that grew slowly and countries that grew rapidly. Some striking examples of growth include:
+
+* Botswana in 2019 is growing like Argentina in 2001,
+* Eswatini in 2019 is growing like Colombia in 2000,
+* Nigeria in 2019 is growing like the Dominican Republic in 1991.
 
 
 # Section 2: Poverty and Gender:
-###Let us first take a look at the poverty witnessed by the region. 
-The national poverty headcount ratio is the percentage of the population living below the national poverty line(s). Despite having a wealth of natural resources, the poverty in the Sub-Saharan region is caused by factors including corruption, poor governance, poor land utilisation, civil wars leading to unending political conflicts, poor infrastructure, diseases and poor health facilities among others. As seen by the map here, Madagascar witnesses the highest poverty headcount ratio and Somalia reports the least. 
-Unfortunately, the natural beauty of Madagascar does not equate to economic success for its population. A mix of climate change issues, deforestation, economics and global rise in food prices have resulted in 71% of Madagascar's people living below the poverty line.
-[TableauEmbed link:"https://public.tableau.com/views/PovertyHeadcount/Sheet2?:language=en-US&:display_count=n&:origin=viz_share_link" width:"800" height:"800"/]
+###Let us take a look at the poverty witnessed by the region. 
+The national poverty headcount ratio is the percentage of the population living below the national poverty line(s). Despite having a wealth of natural resources, the poverty in the Sub-Saharan region is caused by factors including corruption, poor governance, poor land utilisation, civil wars leading to unending political conflicts, poor infrastructure, diseases and poor health facilities among others. 
+As seen by the map here, Sao Tome and Principe witnesses the highest poverty headcount ratio and Tanzania reports the least. 
+Unfortunately, the natural beauty of Sub-Saharan African region does not equate to economic success for its population. A mix of climate change issues, deforestation, economics and global rise in food prices have resulted in several people living below the poverty line.
+[TableauEmbed link:"https://public.tableau.com/views/PovertyHeadcountnew/Sheet2?:language=en-US&:display_count=n&:origin=viz_share_link" width:"800" height:"800"/]
 
 
 When the top 10 richest countries (by GDP) in the Sub-Saharan region are looked at, we see that Uganda has the highest poverty gap (77.20%) while Tanzania has the lowest (6.70%). Almost half of Uganda's population is under the age of 15, representing one of the youngest populations in the world. 
@@ -70,28 +94,19 @@ Inequality in the region also results from regressive taxes, unresponsive wage s
 
 
 ###What about the gender-gap?
-When we look at the relationship between the unemployment of males vs females, we see the general trend is that as the unemployment increases for males, it also increases for females. But what is interesting about this visualization is that when we look at the relationship between the unemployment rate for females and males for each country, we can see the trend for each of them and map out the gender inequalities that are present. We see that countries like Benin, Ethiopia, Mauritius, to name a few - as the percentage of unemployed females increased, 
-there was significantly lesser change to the percentage of the unemployed males. 
-In Africa, 70% of the women are excluded financially, according McKinsey's Power of Parity Report: Advancing Women's Equality in Africa,
-Africa's gender parity stands at 0.58. Even though 25% of political representatives in Africa are women (compared to a global average of 21%)
-the disadvantages faced by the women and the girls in education and training are signifcant. For Africa to close out the gender-gap as a whole, it is important for every 
-country to make the efforts to do so. 
+We were most interested in looking at those countries that had an Unemployment Ratio (Male unemployment (% of male labor force) divided by the Female Unemployment (% of female labor force)) close to 1
+as that would denote that there is almost no unemployment gender-gap.
 
-To interact with this visualization, click on the drop down menu and choose which country from the Sub-Saharan region you want to map out. 
+Looking at this map, over time the number of countries added to this map increased which meant that over time more countries started closing the 
+unemployment gender-gap. This debunks another myth of the Sub-Saharan region, they have been working towards closing the gender-gap and have made significant progress over time. 
 
+[TableauEmbed link:"https://public.tableau.com/views/Unempratio/Sheet12?:language=en-US&:display_count=n&:origin=viz_share_link" width:"750" height:"750"/]
 
-[ObservableEmbed link:"https://observablehq.com/embed/6bc937778505b948?cells=unemployment"width:"100%" height:"500"/]
+If we take a look at the Life Expectancy (LE) Ratio (Male LE/Female LE), we see that that ratio has stayed relatively the same over the years, but what is interesting is that
+as we see the ratio over the years, most countries have increased their ratio - gotten closer to 1 (denoted by the lighter color of the map). This debunks the myth that the life expectancy 
+of males and females varies a great deal in the Sub-Saharan Landscape. 
 
-
-[TableauEmbed link:"https://public.tableau.com/views/LERatio/Sheet1?:language=en-US&:display_count=n&:origin=viz_share_link" width:"750" height:"750"/]
-
-Next, we went ahead and selected the top five richest countries in the Sub-Saharan region by GDP: Nigeria, South Africa, Ethiopia, Kenya and Angola to see the varying trends for the life expectancy at birth for males and females for each of the five countries.
-We see that apart from Kenya and South Africa, the other three countries had a positive trend - the life expectancy at birth for females and males increased over the years. Whereas for Kenya and South Africa, there was a period of time where the life expectancy decreased - we account this decrease to the widespread prevalance of the disease HIV/AIDS
-(which we will further dive into).
-
-To interact with this visualization click on any one of the five countries in the legend, and then use the slider to change the years from 1967 to 2017 to see the trend over time.
-
-[ObservableEmbed link:"https://observablehq.com/embed/6bc937778505b948?cells=life"width:"100%" height:"500"/]
+[TableauEmbed link:"https://public.tableau.com/views/LERatioNew/Sheet1?:language=en-US&:display_count=n&:origin=viz_share_link" width:"750" height:"750"/]
 
 
 # Section 3: Health
@@ -109,7 +124,7 @@ In the last half-century, mortality rates have been more than halved in several 
 
 ## Mortality Rate Under Five (per 1000)
 [ObservableEmbed link:"https://observablehq.com/embed/@joiazhang/untitled?cells=viewof+year_slider_climate%2Cmortality_5"width:"100%" height:"400"/]
-Disregarding missing data indicated as zeros, child mortality rates remained as high as 40% throughout the 1960s, 1970s, 1980s, and 1990s. The region right below the Sahara dessert did not witness steady improvements until the mid 2000s. This area remains the region with the highest mortality rate for children under the age of five.
+Disregarding missing data indicated as zeros, child mortality rates remained as high as 40% throughout the 1970s, 1980s, and 1990s. The region right below the Sahara dessert did not witness steady improvements until the mid 2000s. This area remains the region with the highest mortality rate for children under the age of five.
 
 ## Disease
 Life expectancy and mortality rate depend on an array of important variables. One of which is disease.
@@ -117,6 +132,13 @@ Life expectancy and mortality rate depend on an array of important variables. On
 ## Prevalence of HIV
 [ObservableEmbed link:"https://observablehq.com/embed/@joiazhang/untitled?cells=hiv_prevalence"width:"100%" height:"400"/]
 The twenty countries with the highest rates of HIV cases all lie in Sub-Saharan Africa, which is as high as 35%. This lies in stark contrast to the overwhelming number of countries that have HIV prevalence close to zero percent.
+
+Looking at the top five richest countries in the Sub-Saharan region by GDP: Nigeria, South Africa, Ethiopia, Kenya and Angola to see the varying trends for the life expectancy at birth for males and females for each of the five countries.
+We see that apart from Kenya and South Africa, the other three countries had a positive trend - the life expectancy at birth for females and males increased over the years. Whereas for Kenya and South Africa, there was a period of time where the life expectancy decreased - we account this decrease to the widespread prevalance of the disease HIV/AIDS.
+
+To interact with this visualization click on any one of the five countries in the legend, and then use the slider to change the years from 1967 to 2017 to see the trend over time.
+
+[ObservableEmbed link:"https://observablehq.com/embed/@subhangikabra/poverty-and-gender-gap-in-the-sub-saharan-region/3?cells=life"width:"100%" height:"500"/]
 
 ## Incidence of Tuberculosis
 Large outbreaks of tuberculosis (TB) are preventable through existing vaccines. Yet, large outbreaks of TB persist in many countries in Sub-Saharan Africa and Asia.
