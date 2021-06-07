@@ -127,7 +127,7 @@ During 1960 to 2016, average life expectancy has increased for every country. Ho
 
 ## Average Mortality (per 1000)
 [ObservableEmbed link:"https://observablehq.com/embed/@joiazhang/untitled?cells=viewof+year_slider_gender2%2Cmortality"width:"100%" height:"400"/]
-In the last half-century, mortality rates have been more than halved in several countries. Mortality rates have decreased on the aggregate but mortality rate increased sharply during the AIDS epidemic where the Southern region of Africa was devestated the most.
+In the last half-century, mortality rates have been more than halved in several countries. Mortality rates have decreased overall, but mortality rate increased sharply during the AIDS epidemic where the Southern region of Africa was devastated the most.
 
 ## Mortality Rate Under Five (per 1000)
 [ObservableEmbed link:"https://observablehq.com/embed/@joiazhang/untitled?cells=viewof+year_slider_climate%2Cmortality_5"width:"100%" height:"400"/]
@@ -137,12 +137,12 @@ Disregarding missing data indicated as zeros, child mortality rates remained as 
 Life expectancy and mortality rate depend on an array of important variables. One of which is disease.
 
 ## Prevalence of HIV
-[ObservableEmbed link:"https://observablehq.com/embed/@joiazhang/untitled?cells=hiv_prevalence"width:"100%" height:"400"/]
+[ObservableEmbed link:"https://observablehq.com/embed/@joiazhang/untitled?cells=hiv_prevalence"width:"100%" height:"5400"/]
 The twenty countries with the highest rates of HIV cases all lie in Sub-Saharan Africa, which is as high as 35%. This lies in stark contrast to the overwhelming number of countries that have HIV prevalence close to zero percent.
 
 ## Incidence of Tuberculosis
 Large outbreaks of tuberculosis (TB) are preventable through existing vaccines. Yet, large outbreaks of TB persist in many countries in Sub-Saharan Africa and Asia.
-[ObservableEmbed link:"https://observablehq.com/embed/@joiazhang/untitled?cells=tb_incedence"width:"100%" height:"400"/]
+[ObservableEmbed link:"https://observablehq.com/embed/@joiazhang/untitled?cells=tb_incedence"width:"100%" height:"5400"/]
 Sub-Saharan African countries constitute the majority of the top twenty countries with the most tuberculosis case rates, followed by countries in Asian and Oceania.
 
 # Section 4: Energy and Climate
@@ -208,7 +208,7 @@ This plot proves some previously speculated statements that the Sub-Saharan popu
 
 ## Refugee Population by Country of Origin and Asylum
 Armed conflict, disease outbreaks, droughts, and major disruptions of the like can bring nations into periods of great instability and havoc. When viewing country of origin and country of asylum, migration patterns may be seen. Such patterns can be tied to specific historical and current events in each nation.
-[ObservableEmbed link:"https://observablehq.com/embed/@joiazhang/untitled?cells=viewof+year_slider_soc%2Cmigration"width:"100%" height:"400"/]
+[ObservableEmbed link:"https://observablehq.com/embed/@joiazhang/untitled?cells=viewof+year_slider_soc%2Cmigration"width:"160%" height:"400"/]
 From the 1990s onwards, Sudan has experienced mass displacement. In the late 2010s, the mass displacement centers in South Sudan, corresponding with the South Sudanese Civil War. In the late 2010s, Somalia experienced mass displacement as well, which may be tied to the rise of militant youth group Al-Shabab. Neighboring countries to Somalia, Sudan, and South Sudan such as Chad, Tanzania, Uganda, and Ethiopia have been major countries of refuge.
 
 ## Net Aid
