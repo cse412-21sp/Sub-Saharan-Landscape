@@ -1,11 +1,11 @@
-[meta title:"CSE412 Final Project" description:"The initial template for the CSE412 Final Projects (Spring 2021)" /]
+[meta title:"Sub-Saharan Landscape" description:"An analysis of social, economic, political, health and energy trends" /]
 
 [Header
   fullWidth:true
   title:"The Sub-Saharan Landscape"
   subtitle:"An analysis of social, economic, political, health and energy trends"
   author:"Joia Zhang, Rishabh Verma, Subhangi Kabra, Lukas Naehrig"
-  date:"May, 2021"
+  date:"June, 2021"
   background:"#33333f"
   color:"#ffffff"
    /]
