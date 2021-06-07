@@ -6,6 +6,10 @@
   margin-bottom: 0px;
 }
 
+.povertyGap img {
+  width: 800%;
+}
+
 @media all and (max-width: 1000px) {
   .d3-component svg {
     max-height: 200px;
