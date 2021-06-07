@@ -19,7 +19,7 @@ To gain an overview of the population distribution in Sub Saharan Africa, consid
 [TableauEmbed link:"https://public.tableau.com/views/Sub-SaharanLandscapePlot2/Sheet2?:language=en&:display_count=y&:origin=viz_share_link" width:"800" height:"800"/]
 
 Nigeria (174,387,515) is the most populated country in Sub-Saharan Africa, followed by Ethiopia (96,210,222) and Congo (72,690,899).
-The Seychelles (91,345) have the smalles population.
+The Seychelles (91,345) have the smallest population.
 
 Sub Saharan Africa has one of the fastest population growth rates. To understand the regional distribution of population growth, consider the following map:
 
@@ -56,7 +56,7 @@ in 2019 is growing like [DisplayBuddy country1:country1 year2:year2 /] in [Displ
 ###Let us first take a look at the poverty witnessed by the region. 
 The national poverty headcount ratio is the percentage of the population living below the national poverty line(s). Despite having a wealth of natural resources, the poverty in the Sub-Saharan region is caused by factors including corruption, poor governance, poor land utilisation, civil wars leading to unending political conflicts, poor infrastructure, diseases and poor health facilities among others. As seen by the map here, Madagascar witnesses the highest poverty headcount ratio and Somalia reports the least. 
 Unfortunately, the natural beauty of Madagascar does not equate to economic success for its population. A mix of climate change issues, deforestation, economics and global rise in food prices have resulted in 71% of Madagascar's people living below the poverty line.
-![poverty headcount](./static/images/PHCR.png)
+[TableauEmbed link:"https://public.tableau.com/views/PovertyHeadcount/Sheet2?:language=en-US&:display_count=n&:origin=viz_share_link" width:"800" height:"800"/]
 
 
 When the top 10 richest countries (by GDP) in the Sub-Saharan region are looked at, we see that Uganda has the highest poverty gap (77.20%) while Tanzania has the lowest (6.70%). Almost half of Uganda's population is under the age of 15, representing one of the youngest populations in the world. 
@@ -67,7 +67,11 @@ Inequality in the region also results from regressive taxes, unresponsive wage s
 
 ###What about the gender-gap?
 When we look at the relationship between the unemployment of males vs females, we see the general trend is that as the unemployment increases for males, it also increases for females. But what is interesting about this visualization is that when we look at the relationship between the unemployment rate for females and males for each country, we can see the trend for each of them and map out the gender inequalities that are present. We see that countries like Benin, Ethiopia, Mauritius, to name a few - as the percentage of unemployed females increased, 
-there was significantly lesser change to the percentage of the unemployed males.
+there was significantly lesser change to the percentage of the unemployed males. 
+In Africa, 70% of the women are excluded financially, according McKinsey's Power of Parity Report: Advancing Women's Equality in Africa,
+Africa's gender parity stands at 0.58. Even though 25% of political representatives in Africa are women (compared to a global average of 21%)
+the disadvantages faced by the women and the girls in education and training are signifcant. For Africa to close out the gender-gap as a whole, it is important for every 
+country to make the efforts to do so. 
 
 To interact with this visualization, click on the drop down menu and choose which country from the Sub-Saharan region you want to map out. 
 
@@ -75,15 +79,47 @@ To interact with this visualization, click on the drop down menu and choose whic
 [ObservableEmbed link:"https://observablehq.com/embed/6bc937778505b948?cells=unemployment"width:"100%" height:"500"/]
 
 
+[TableauEmbed link:"https://public.tableau.com/views/LERatio/Sheet1?:language=en-US&:display_count=n&:origin=viz_share_link" width:"750" height:"750"/]
 
 Next, we went ahead and selected the top five richest countries in the Sub-Saharan region by GDP: Nigeria, South Africa, Ethiopia, Kenya and Angola to see the varying trends for the life expectancy at birth for males and females for each of the five countries.
-We see that apart from Kenya and South Africa, the other three countries had a positive trend - the life expectancy at birth for females and males increased over the years. Whereas for Kenya and South Africa, there was a period of time where the life expectancy decreased - we account this decrease to the widespread prevalance of the disease HIV/AIDS.
+We see that apart from Kenya and South Africa, the other three countries had a positive trend - the life expectancy at birth for females and males increased over the years. Whereas for Kenya and South Africa, there was a period of time where the life expectancy decreased - we account this decrease to the widespread prevalance of the disease HIV/AIDS
+(which we will further dive into).
 
 To interact with this visualization click on any one of the five countries in the legend, and then use the slider to change the years from 1967 to 2017 to see the trend over time.
 
 [ObservableEmbed link:"https://observablehq.com/embed/6bc937778505b948?cells=life"width:"100%" height:"500"/]
 
-# Section 3: Energy and Climate
+
+# Section 3: Health
+#### With Africa's growing economy, population, and technological development, how has the health of individuals changed over the past few decades?
+
+The growth of Sub-Saharan Africa's economy, population, and technological innovation has coincided with drastic improvements in life expectancy for both adults and children.
+
+## Average Life Expectancy At Birth (years)
+[ObservableEmbed link:"https://observablehq.com/embed/@joiazhang/untitled?cells=viewof+year_slider_gender%2Clife_expectancy"width:"100%" height:"400"/]
+During 1960 to 2016, average life expectancy has increased for every country. However, this increase is not uniform. Average life expectancy in Sub-Saharan Africa has increased less than that of Northern Africa. From 1990 to the mid 2000s, the southern tip of Africa witnessed decreases in life expectancy, corresponding to the height of the AIDS epidemic in Africa.
+
+## Average Mortality (per 1000)
+[ObservableEmbed link:"https://observablehq.com/embed/@joiazhang/untitled?cells=viewof+year_slider_gender2%2Cmortality"width:"100%" height:"400"/]
+In the last half-century, mortality rates have been more than halved in several countries. Mortality rates have decreased on the aggregate but mortality rate increased sharply during the AIDS epidemic where the Southern region of Africa was devestated the most.
+
+## Mortality Rate Under Five (per 1000)
+[ObservableEmbed link:"https://observablehq.com/embed/@joiazhang/untitled?cells=viewof+year_slider_climate%2Cmortality_5"width:"100%" height:"400"/]
+Disregarding missing data indicated as zeros, child mortality rates remained as high as 40% throughout the 1970s, 1980s, and 1990s. The region right below the Sahara dessert did not witness steady improvements until the mid 2000s. This area remains the region with the highest mortality rate for children under the age of five.
+
+## Disease
+Life expectancy and mortality rate depend on an array of important variables. One of which is disease.
+
+## Prevalence of HIV
+[ObservableEmbed link:"https://observablehq.com/embed/@joiazhang/untitled?cells=hiv_prevalence"width:"100%" height:"400"/]
+The twenty countries with the highest rates of HIV cases all lie in Sub-Saharan Africa, which is as high as 35%. This lies in stark contrast to the overwhelming number of countries that have HIV prevalence close to zero percent.
+
+## Incidence of Tuberculosis
+Large outbreaks of tuberculosis (TB) are preventable through existing vaccines. Yet, large outbreaks of TB persist in many countries in Sub-Saharan Africa and Asia.
+[ObservableEmbed link:"https://observablehq.com/embed/@joiazhang/untitled?cells=tb_incedence"width:"100%" height:"400"/]
+Sub-Saharan African countries constitute the majority of the top twenty countries with the most tuberculosis case rates, followed by countries in Asian and Oceania.
+
+# Section 4: Energy and Climate
 The next section will contain an analysis regarding Sub Saharan Africa's energy and climate landscapes.
 Africa is stereotypically known to have a severe lack of electricity access and therefore contribute little to climate change effects. Let's take a look if these statements are facts or misconceptions.
 
@@ -140,15 +176,29 @@ If a country with fast population growth appears lighter, then this country will
 
 This plot proves some previously speculated statements that the Sub-Saharan population is growing rapidly. Indeed, most countries are above a population growth rate of 2%, with some reaching 4%. In comparison, the U.S.' population growth is 0.5% at the moment.
 
+# Section 5: Historical and Current Events
 
-# Section 4: Health
-With Africa's growing economy, population, and technological development, how has the health of individuals changed over the past few decades?
-[ObservableEmbed link:"https://observablehq.com/embed/@joiazhang/untitled"width:"100%" height:"400"/]
+#### How may observed patterns align with historical or current events?
+
+## Refugee Population by Country of Origin and Asylum
+Armed conflict, disease outbreaks, droughts, and major disruptions of the like can bring nations into periods of great instability and havoc. When viewing country of origin and country of asylum, migration patterns may be seen. Such patterns can be tied to specific historical and current events in each nation.
+[ObservableEmbed link:"https://observablehq.com/embed/@joiazhang/untitled?cells=viewof+year_slider_soc%2Cmigration"width:"100%" height:"400"/]
+From the 1990s onwards, Sudan has experienced mass displacement. In the late 2010s, the mass displacement centers in South Sudan, corresponding with the South Sudanese Civil War. In the late 2010s, Somalia experienced mass displacement as well, which may be tied to the rise of militant youth group Al-Shabab. Neighboring countries to Somalia, Sudan, and South Sudan such as Chad, Tanzania, Uganda, and Ethiopia have been major countries of refuge.
+
+## Net Aid
+Specific events in different countries can be reflected in the amount of aid received in each year.
+[ObservableEmbed link:"https://observablehq.com/embed/@joiazhang/untitled?cells=viewof+year_slider_aid%2Cnet_aid"width:"100%" height:"400"/]
+In the 1960s and 1970s, aid distribution across the continent of Africa remained relatively uniform. From the early 1980s onwards, aid was focused on Eastern Africa, particularly Sudan, Tanzania, and Ethiopia in the late 2010s. Aid for Nigeria peaked in 2005 when military force against Boko Haram was funded.
+
+## Proportion of Aid to Economy
+For those countries that have recieved aid, how does this aid, as a national income source, compare to a country's other income sources such as imports and primary income?
+[ObservableEmbed link:"https://observablehq.com/embed/@joiazhang/untitled?cells=viewof+year_slider_aid2%2Caid_proportion"width:"100%" height:"400"/]
+In countries directly below the Sahara Desert, total aid is a larger proportion of total imports of goods, services, and primary income—a metric of a country's economy. In the late 2010s, the sharp rise in the plotted proportion corresponds to the South Sudanese Civil War beggining in 2013. Over the years, aid has become a smaller and smaller portion of the total economy of each country.
 
 # Conclusion
 Pollings show how public understandings of the state of the world are outdated by several decades. The public mind tends to downplay the drastic improvements in health, economic development, and technological advancement of Sub-Saharan African countries. Countries in Sub-Saharan Africa can be likened to OECD countries in earlier stages of development. Like OECD countries, such development has been tangled with disparities in wealth and gender, as well as carbon emissions. Such development has been far from uniform. Events specific to each country can be reflected in net aid, and refugee migration. In the past half-century, Sub-Saharan Africa has undergone dramatic and dynamic change in economy, emissions, wealth distributions, technology, and health.
 
-#### Acknowledgements
+# Acknowledgements
 
 Big thanks to Zening Qu for publishing a [tidy version](https://github.com/ZeningQu/World-Bank-Data-by-Indicators) of the World Bank dataset.
 
