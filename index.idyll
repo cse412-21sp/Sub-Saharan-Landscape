@@ -13,43 +13,70 @@
 Widespread misconceptions persist about the social, economic, and technological development in Sub-Saharan Africa. Our goal is to dispel these misconceptions by exploring and analyzing trends around the continent to reflect the diversity of Sub-Saharan Africa. While it is clear that the Sub-Saharan African region has witnessed incredible amounts of changes in its social, economical and environmental landscape, these changes are nuanced and thus we will analyze these factors in Sub-Saharan Africa to find trends and correlations within this region.
 The visualization techniques that we will apply in our explorational study are time series analysis charts, scatter plots, maps, and bar/distribution graphs, interactivity, and animation where useful. We aim to map out the gender-gap, poverty, education rates, employment rates, technological innovation, growth of the countries and several other demographic variables, and through these visualizations, we aim to debunk outdated myths and present a more accurate reflection of developments in Sub-Saharan Africa.
 
-# Section 1: Overview
+First let's get a lay of the land.
+
+# Section 1: An overview in population and economy
+
 To gain an overview of the population distribution in Sub Saharan Africa, consider the following population density map:
 
 [TableauEmbed link:"https://public.tableau.com/views/Sub-SaharanLandscapePlot2/Sheet2?:language=en&:display_count=y&:origin=viz_share_link" width:"800" height:"800"/]
 
-Nigeria (174,387,515) is the most populated country in Sub-Saharan Africa, followed by Ethiopia (96,210,222) and Congo (72,690,899).
-The Seychelles (91,345) have the smallest population.
+Out of one billion people, Nigeria (174m) is the most populated country in Sub-Saharan Africa, followed by Ethiopia (96m) and the Dem. Rep. of the Congo (72m). The archipelago of Seychelles has the smallest population. 
 
-Sub Saharan Africa has one of the fastest population growth rates. To understand the regional distribution of population growth, consider the following map:
+Overall, regions near the northwest appear less populated, but they are growing rapidly. This growth is broken down with every other country in Sub-Saharan Africa in the following map:
 
 [TableauEmbed link:"https://public.tableau.com/views/Sub-SaharanLandscapePlot4/Sheet3?:language=en&:retry=yes&:display_count=y&:origin=viz_share_link" width:"800" height:"800"/]
 
-Djibouti has the highest average population growth with a rate of 4.674, which is measured as a yearly percentage increase.
-Mauritius and the Seychelles have the slowest rate, which is close to 1.3. Note that this implies that every single country in Sub-Saharan Africa is growing.
+The countries of Djibouti (4.6%), Kenya (3.4%), and Uganda (3.4%) have the fastest population growth in the east. The countries of Niger (3.4%) and Cote d'Ivoire (3.6%) have the fastest population growth in the west. All percentages are yearly increases.
+
+TODO: What does that mean, a yearly percentage increase? Are they increasing by 3% per year? Or is (percent change in population growth from 1960 to 2017)/(2017-1960) equal to 3%? The former interpretation compounds, which is extreme. The latter interpretation does not.
 
 
 ###How quickly is Africa's economy growing?
 
 Overall, Africa's economic landscape has seen incredible growth in the last half century. South Africa and Nigeria have become major economic powers within the continent, and many other countries are growing at startlingly quick rates. 
 
+Size represents the country's gross domestic product (GDP). Color represents [GNI per capita](https://en.wikipedia.org/wiki/Gross_national_income), representing the average income each citizen earns.
+
+Drag the slider to see Africa in modern times. 
 
 [var name:"myRange" value:1960 /]
 [WideRange value:myRange min:1960 max:2018 /]
 Year: [Display value:myRange format:"d"/]
 [D3GDP currentYear:myRange /]
 
+There are three regions of upper-middle income countries. 
+
+1. There are the southern countries of South Africa, Namibia, Botswana, and Eswatini, with highly diverse economies.
+2. There are the equatorial countries of Equatorial Guinea and Gabon, which sit on oil reserves.  
+3. There are the island countries of Mauritius and Seychelles, with diverse economies as well as well-developed tourism industries. 
+
+The rapid growth of Nigeria in the 21st century has it projected by some to be a global force in the world market. When looking at historical trends, there are so many developed countries around the world that only accrued their wealth recently. Countries in Sub Saharan Africa, particularly the ones near the south, are all poised for similar growth.
+
+
+
+We can compare its GNI per capita (and other countries' GNI per capita) to other countries in the world in the following interactive graphic.
+
 [var name:"country1" value:"Nigeria" /]
 [var name:"year2" value:2006 /]
 
-[span style:`{fontSize:'22px'}`]
-[Select value:country1 options:`["Angola","Benin","Botswana","Burkina Faso","Burundi","Cabo Verde","Cameroon","Central African Republic","Chad","Comoros","Congo, Dem. Rep.","Congo, Rep.","Cote d'Ivoire","Djibouti","Equatorial Guinea","Eritrea","Eswatini","Ethiopia","Gabon","Gambia, The","Ghana","Guinea","Guinea-Bissau","Kenya","Lesotho","Liberia","Madagascar","Malawi","Mali","Mauritania","Mauritius","Mozambique","Namibia","Niger","Nigeria","Rwanda","Sao Tome and Principe","Senegal","Seychelles","Sierra Leone","Somalia","South Africa","South Sudan","Sudan","Tanzania","Togo","Uganda","Zambia"]` /]
-in 2019 is growing like [DisplayBuddy country1:country1 year2:year2 /] in [Display value:year2 format:"d" /].[/span]
+### How does the economic development of Sub-Saharan African countries compare to other countries in the past?
+
+[Buddies country1:country1 year2:year2/]
 
 [WideRange value:year2 min:1960 max:2019 /] Year
 
+[span style:`{fontSize:'18px'}`]
+[Select value:country1 options:`["Angola","Benin","Botswana","Burkina Faso","Burundi","Cabo Verde","Cameroon","Central African Republic","Chad","Comoros","Congo, Dem. Rep.","Congo, Rep.","Cote d'Ivoire","Djibouti","Equatorial Guinea","Eritrea","Eswatini","Ethiopia","Gabon","Gambia, The","Ghana","Guinea","Guinea-Bissau","Kenya","Lesotho","Liberia","Madagascar","Malawi","Mali","Mauritania","Mauritius","Mozambique","Namibia","Niger","Nigeria","Rwanda","Sao Tome and Principe","Senegal","Seychelles","Sierra Leone","Somalia","South Africa","South Sudan","Sudan","Tanzania","Togo","Uganda","Zambia"]` /]
+in 2019 is growing like [DisplayBuddy country1:country1 year2:year2 /] in [Display value:year2 format:"d" /].[/span]
 
-[Buddies country1:country1 year2:year2/]
+
+
+Pick a country and drag the slider go back in time. You'll find countries that grew slowly and countries that grew rapidly. Some striking examples of growth include:
+
+* Botswana in 2019 is growing like Argentina in 2001,
+* Eswatini in 2019 is growing like Colombia in 2000,
+* Nigeria in 2019 is growing like the Dominican Republic in 1991.
 
 
 # Section 2: Poverty and Gender:

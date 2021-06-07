@@ -1,7 +1,7 @@
 const React = require('react');
 const D3Component = require('idyll-d3-component');
 const d3 = require('d3');
-const d3scale = require('d3-scale-chromatic');
+// const d3scale = require('d3-scale-chromatic');
 const vega = require('vega');
 const vegalite = require('vega-lite');
 const vegaTooltip = require('vega-tooltip');
@@ -59,8 +59,8 @@ function buildView(element, props) {
 
 
   // Scale the y-axis and cut off values that are too high.
-  spec.layer[0].encoding.y.scale.domain[1] = 4.4*GDP;
-  spec.layer[2].transform[2].filter = ('datum.GDP <=').concat((4.4*GDP).toString());
+  spec.layer[0].encoding.y.scale.domain[1] = 2.8*GDP;
+  spec.layer[2].transform[2].filter = ('datum.GDP <=').concat((2.8*GDP).toString());
 
   // // For debugging:
   // alert(JSON.stringify(Object.values(spec)));
