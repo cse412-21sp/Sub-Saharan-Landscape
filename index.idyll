@@ -83,6 +83,7 @@ To interact with this visualization, click on the drop down menu and choose whic
 [ObservableEmbed link:"https://observablehq.com/embed/6bc937778505b948?cells=unemployment"width:"100%" height:"500"/]
 
 
+[TableauEmbed link:"https://public.tableau.com/views/LERatio/Sheet1?:language=en-US&:display_count=n&:origin=viz_share_link" width:"750" height:"750"/]
 
 Next, we went ahead and selected the top five richest countries in the Sub-Saharan region by GDP: Nigeria, South Africa, Ethiopia, Kenya and Angola to see the varying trends for the life expectancy at birth for males and females for each of the five countries.
 We see that apart from Kenya and South Africa, the other three countries had a positive trend - the life expectancy at birth for females and males increased over the years. Whereas for Kenya and South Africa, there was a period of time where the life expectancy decreased - we account this decrease to the widespread prevalance of the disease HIV/AIDS
@@ -91,8 +92,6 @@ We see that apart from Kenya and South Africa, the other three countries had a p
 To interact with this visualization click on any one of the five countries in the legend, and then use the slider to change the years from 1967 to 2017 to see the trend over time.
 
 [ObservableEmbed link:"https://observablehq.com/embed/6bc937778505b948?cells=life"width:"100%" height:"500"/]
-
-[TableauEmbed link:"https://public.tableau.com/views/LERatio/Sheet1?:language=en-US&:display_count=n&:origin=viz_share_link" width:"750" height:"750"/]
 
 
 # Section 3: Health
