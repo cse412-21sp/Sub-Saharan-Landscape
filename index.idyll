@@ -39,21 +39,17 @@ Overall, Africa's economic landscape has seen incredible growth in the last half
 Year: [Display value:myRange format:"d"/]
 [D3GDP currentYear:myRange /]
 
-
-
-
-
 [var name:"country1" value:"Nigeria" /]
 [var name:"year2" value:2006 /]
-[var name:"country2" value:"Dummy_init" /]
 
-
+[span style:`{fontSize:'22px'}`]
 [Select value:country1 options:`["Angola","Benin","Botswana","Burkina Faso","Burundi","Cabo Verde","Cameroon","Central African Republic","Chad","Comoros","Congo, Dem. Rep.","Congo, Rep.","Cote d'Ivoire","Djibouti","Equatorial Guinea","Eritrea","Eswatini","Ethiopia","Gabon","Gambia, The","Ghana","Guinea","Guinea-Bissau","Kenya","Lesotho","Liberia","Madagascar","Malawi","Mali","Mauritania","Mauritius","Mozambique","Namibia","Niger","Nigeria","Rwanda","Sao Tome and Principe","Senegal","Seychelles","Sierra Leone","Somalia","South Africa","South Sudan","Sudan","Tanzania","Togo","Uganda","Zambia"]` /]
-in 2019 is growing like _______________ in [Display value:year2 format:"d" /].
+in 2019 is growing like [DisplayBuddy country1:country1 year2:year2 /] in [Display value:year2 format:"d" /].[/span]
 
 [WideRange value:year2 min:1960 max:2019 /] Year
 
-[Buddies country1:country1 year2:year2 country2:country2/]
+
+[Buddies country1:country1 year2:year2/]
 
 
 # Section 2: Poverty and Gender:
